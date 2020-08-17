@@ -8,12 +8,14 @@ GET: Get user (/user/:userId)
 POST: Save Game History (/game/createhistory)
 GET: Game History (/game/histories)
 ```
-
+### Stack
+```bash
+Used multer for uploading of images
+JWT for authentication
+mongo db for no sql database
+```
 ### TODO
 ```bash
 refresh token
 dockerized
-upload image
 ```
-
-multer to parse incoming form data bodies
