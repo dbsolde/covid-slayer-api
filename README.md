@@ -46,6 +46,18 @@ JWT for authentication
 Used multer for file uploading
 ```
 
+### Back End tasks summary
+```bash
+Integrate mongodb
+Sign up endpoint and user can upload avatar
+Login endpoint
+jwt
+Protected route
+Save each game
+View game hitories and implemented pagination
+Created user details endpoint
+```
+
 ```bash
 # Back End outstanding tasks
 token refresh
