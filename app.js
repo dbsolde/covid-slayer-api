@@ -6,8 +6,8 @@ const mongoose = require("mongoose");
 
 const userRoutes = require('./app/routes/user')
 const gameRoutes = require('./app/routes/game')
-
-const URI = "mongodb+srv://covidSlayer:covidSlayer@cluster0.2qafb.mongodb.net/covid-slayer?retryWrites=true&w=majority";
+// Mongo URL
+const URI = "";
 mongoose.connect(
     URI,
     {
